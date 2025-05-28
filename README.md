@@ -43,8 +43,8 @@ Driver fatigue is a major cause of road accidents worldwide. This system aims to
 
 1. **Clone this repo**
    ```bash
-   git clone https://github.com/your-username/drowsiness-detector-haar.git
-   cd drowsiness-detector-haar
+   git clone https://github.com/sakthii21/Drowsiness-Detection.git
+   cd Drowsiness-Detection
 ---
 
 **Install required packages**
