@@ -35,7 +35,7 @@ Driver fatigue is a major cause of road accidents worldwide. This system aims to
 
 - **Face & Eye Detection:** Uses OpenCV's Haar cascades to locate faces and eyes in real-time.
 - **EAR Calculation:** Eye Aspect Ratio is calculated based on detected eye landmarks.
-- **Alert Logic:** If the average EAR falls below a set threshold (`< 0.80`) for both eyes, it's flagged as drowsy and the system displays `"DANGER"`.
+- **Alert Logic:** If the average EAR falls below a set threshold (`< 0.80`) for both eyes, it's flagged as drowsy and the system displays `"DANGER"`
 
 ---
 
