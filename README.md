@@ -63,23 +63,25 @@ python detect_drowsiness.py
 The Eye Aspect Ratio (EAR) is a mathematical formula that estimates eye openness:
 
 **EAR = (||p2 − p6|| + ||p3 − p5||) / (2 * ||p1 − p4||)**
+
 If the eyes are closing, vertical distances shrink → EAR drops.
 ---
 
 ⚠️ Known Limitations
-Uses rectangle-based eye approximation (not precise landmarks)
+- Uses rectangle-based eye approximation (not precise landmarks)
 
-False positives in low light or if face partially visible
+- False positives in low light or if face partially visible
 
 EAR threshold may need calibration for different faces
 ---
 
 🚀 Improvements You Can Add
-Use dlib or mediapipe for better landmark detection
 
-Add sound alert (pygame or playsound)
+- Use dlib or mediapipe for better landmark detection
 
-Record alert logs for monitoring
+- Add sound alert (pygame or playsound)
+
+- Record alert logs for monitoring
 
 Package with a GUI (e.g., Tkinter or PyQt)
 ---
@@ -89,9 +91,9 @@ MIT License. Use freely, but give credit 😊
 ---
 
 🙌 Acknowledgments
-OpenCV Haar cascades
+- OpenCV Haar cascades
 
-SciPy for EAR calculation
+- SciPy for EAR calculation
 
 Stay awake. Stay safe. 🚗💤
 
