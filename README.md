@@ -15,9 +15,9 @@ Driver fatigue is a major cause of road accidents worldwide. This system aims to
 
 ---
 
-## 📸 Live Demo
+## 📸 Demo
 
-<img src="https://media.giphy.com/media/l0HlQ7LRalQW6QGjG/giphy.gif" width="100%">
+![image](https://github.com/user-attachments/assets/cee6327e-ed54-427a-8670-5b4ba0d0ac85)
 
 ---
 
@@ -45,20 +45,26 @@ Driver fatigue is a major cause of road accidents worldwide. This system aims to
    ```bash
    git clone https://github.com/your-username/drowsiness-detector-haar.git
    cd drowsiness-detector-haar
+---
 
 **Install required packages**
 
 pip install opencv-python numpy scipy
+---
 
 **Run the project**
+
 python detect_drowsiness.py
 
+---
 
 **EAR Formula**
+
 The Eye Aspect Ratio (EAR) is a mathematical formula that estimates eye openness:
 
 **EAR = (||p2 − p6|| + ||p3 − p5||) / (2 * ||p1 − p4||)**
 If the eyes are closing, vertical distances shrink → EAR drops.
+---
 
 ⚠️ Known Limitations
 Uses rectangle-based eye approximation (not precise landmarks)
@@ -66,6 +72,7 @@ Uses rectangle-based eye approximation (not precise landmarks)
 False positives in low light or if face partially visible
 
 EAR threshold may need calibration for different faces
+---
 
 🚀 Improvements You Can Add
 Use dlib or mediapipe for better landmark detection
@@ -75,9 +82,11 @@ Add sound alert (pygame or playsound)
 Record alert logs for monitoring
 
 Package with a GUI (e.g., Tkinter or PyQt)
+---
 
 🪪 License
 MIT License. Use freely, but give credit 😊
+---
 
 🙌 Acknowledgments
 OpenCV Haar cascades
